@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ZhuShou
+server:
+  port: 8234
+htmlurl:
+  sogourl: http://wzpush.sogoucdn.com/api/anspush?key=bwyx&id=android_bwyx_1576674391124,android_bwyx_1576674436224&wdcallback=jQuery20007725101726884371_1576664710299&_=1576664710310
+
