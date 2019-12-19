@@ -122,6 +122,7 @@ public class ResultServiceImpl implements ResultService {
           System.out.println(answerResults[j]);
       }
         resultDto.setResults(answerResults);
+        textString.setResults(answerResults);
         return textString;
     }
 

@@ -6,4 +6,5 @@ import lombok.Data;
 public class TextString {
     private String question;
     private String[] answers;
+    private String[] results;
 }

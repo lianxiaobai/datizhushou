@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05ea355b-0dca-417c-a4d6-602beabd5767" name="Default" comment="" />
+    <list default="true" id="05ea355b-0dca-417c-a4d6-602beabd5767" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/bean/TextString.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/bean/TextString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/serviceimpl/ResultServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/serviceimpl/ResultServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/BaiDuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/BaiDuUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/jquery.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/MillionHero-master/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -195,9 +202,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-5" />
-    <option name="width" value="756" />
-    <option name="height" value="735" />
+    <option name="x" value="53" />
+    <option name="width" value="485" />
+    <option name="height" value="374" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">

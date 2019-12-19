@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "128.png",
+         "16": "16.png",
+         "48": "48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.js" ],
+      "matches": [ "http://*/*", "http://*/", "https://*/*", "https://*/" ]
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "答题小助手，支持市面上大多数答题APP如冲顶大会，百万英雄，花椒直播，芝士超人，祝你早日冲顶~",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "48": "48.png"
+   },
+   "manifest_version": 2,
+   "name": "答题小助手",
+   "permissions": [ "tabs", "webRequest", "webRequestBlocking", "*://*/*" ],
+   "version": "0.0.9"
+}

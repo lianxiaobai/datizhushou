@@ -116,8 +116,8 @@ User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-TL00H Build/HONORCAM-TL00H; wv)
             //System.out.println(new String(decoder.decode(str), "UTF-8"));
             //Document document = Jsoup.parse(result);
             //text =  document.getElementById("content_left").text();
-            textString.setQuestion("12. 俗语“有眼不识泰山”最早记载于哪本名著？");
-            textString.setAnswers(new String[]{"西游记","水浒传","三国演义","红楼梦"});
+            //textString.setQuestion("12. 俗语“有眼不识泰山”最早记载于哪本名著？");
+            //textString.setAnswers(new String[]{"西游记","水浒传","三国演义","红楼梦"});
             return textString;
         } catch (Exception e) {
             e.printStackTrace();
