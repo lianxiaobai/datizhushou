@@ -17,17 +17,22 @@ import java.util.concurrent.*;
 public class ResultServiceImpl implements ResultService {
     private ThreadFactory namedThreadFactory = new ThreadFactoryBuilder()
             .setNameFormat("search").build();
-
+    private static String sss = "";
     private ExecutorService pools = new ThreadPoolExecutor(8, 12,
             0L, TimeUnit.MILLISECONDS,
             new LinkedBlockingQueue<Runnable>(1024), namedThreadFactory, new ThreadPoolExecutor.AbortPolicy());
 
     @Value("${htmlurl.sogourl}")
     String sogouurl;
-    public ResultDto getResult(){
+    public TextString getResult(){
         ResultDto resultDto = new ResultDto();
         //从搜狗获取题目和选项
         TextString textString = BaiDuUtils.getText(sogouurl);
+
+        if(sss.equals(textString.getQuestion())){
+            return textString;
+        }
+        sss = textString.getQuestion();
         resultDto.setTitle(textString.getQuestion());
         //调用百度搜索题目，返回搜索结果页面，并解析
         FutureTask<String> searchQuestion = new FutureTask<String>(()->{
@@ -114,11 +119,15 @@ public class ResultServiceImpl implements ResultService {
       String[] answerResults = new String[length];
       for (int j = 0;j <length;j++){
            answerResults[j] = textString.getAnswers()[j]+" : " + searchQuestionResult[j] + " ------  "+ searchAnsersQuestionResult[j];
-          System.out.println("-----------------");
           System.out.println(answerResults[j]);
       }
         resultDto.setResults(answerResults);
-        return resultDto;
+        return textString;
+    }
+
+    @Override
+    public TextString getFirstResult() {
+        return BaiDuUtils.getText(sogouurl);
     }
 
 }

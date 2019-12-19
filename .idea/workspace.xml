@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05ea355b-0dca-417c-a4d6-602beabd5767" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Base/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Base/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Dto/ResultDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Dto/ResultDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Handler/StringHandlerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Handler/StringHandlerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Service/ResultService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/Service/ResultService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/bean/TextString.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/bean/TextString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/controll/ResultControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/controll/ResultControll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/serviceimpl/ResultServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/serviceimpl/ResultServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/BaiDuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/BaiDuUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/QuickMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/QuickMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/SnowflakeIdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/SnowflakeIdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/resources/static/jquery.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/MillionHero-master/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/2019_12$MainGUI.ic" NAME="MainGUI Coverage Results" MODIFIED="1576478770593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="84" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/MainGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6540">
+              <caret line="233" selection-start-line="233" selection-end-line="233" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3240">
+              <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonPattern.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/pattern/impl/CommonPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4920">
+              <caret line="198" column="39" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicButtonListener.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6510">
+              <caret line="251" selection-start-line="251" selection-end-line="251" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ocr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/ocr/Ocr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiDuOcr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/ocr/impl/BaiDuOcr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="BaiduNlpSettingDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/gui/BaiduNlpSettingDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiDuOcrSettingDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/gui/BaiDuOcrSettingDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/ImageHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pattern.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/pattern/Pattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Executor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/Executor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3180">
+              <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38220">
+              <caret line="1331" column="32" selection-start-line="1331" selection-start-column="24" selection-end-line="1331" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClientUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/HttpClientUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3750">
+              <caret line="140" column="39" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/UrlUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiDuUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/BaiDuUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/NetUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Baiduzhishu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Baiduzhishu.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClients.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/impl/client/HttpClients.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloseableHttpResponse.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jsoup.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/Jsoup.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/nodes/Element.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8940">
+              <caret line="380" column="15" selection-start-line="380" selection-start-column="11" selection-end-line="380" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickMatch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/QuickMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/FutureTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="233" column="9" selection-start-line="233" selection-start-column="9" selection-end-line="233" selection-end-column="9" />
+              <folding>
+                <element signature="e#3755#3785#0" expanded="true" />
+                <element signature="e#5351#5352#0" expanded="true" />
+                <element signature="e#5386#5387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Similarity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/Similarity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimilarityFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/SimilarityFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PmiSimilarity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/PmiSimilarity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiDuSimilarity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/BaiDuSimilarity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadFactoryBuilder.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/util/concurrent/ThreadFactoryBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Callable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/Callable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/search/impl/SearchFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiDuSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/search/impl/BaiDuSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6270">
+              <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+              <folding>
+                <element signature="e#10065#10066#0" expanded="true" />
+                <element signature="e#10148#10149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48870">
+              <caret line="1697" column="16" selection-start-line="1697" selection-start-column="16" selection-end-line="1697" selection-end-column="16" />
+              <folding>
+                <element signature="e#66457#66458#0" expanded="true" />
+                <element signature="e#66495#66496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addRunButton</find>
+      <find>addSetFinishButton</find>
+      <find>package utils\;\n\/\*\*\*\n \* 字符串快速匹配sunday算法\n \* sunday与horspool优于strstr\、BM\、KMP\，BM匹配速度相当于KMP的三倍\。\n \* \(1\)strstr\(\)\:c语言的库函数\n \* \(2\)KMP\(Knuth\-Morris\-Pratt\)算法\n \* \(3\)BM\(Boyer\-Moore\)算法\n \* \(4\)Horspool算法\n \* \(5\)Sunday算法\n \* \@author lenovo\n \* \@date 2019年3月22日\n \* description\:\n \*\/\n\n\/\*\*\*\n \* 字符串快速匹配sunday算法\n \* sunday与horspool优于strstr\、BM\、KMP\，BM匹配速度相当于KMP的三倍\。\n \* \(1\)strstr\(\)\:c语言的库函数\n \* \(2\)KMP\(Knuth\-Morris\-Pratt\)算法\n \* \(3\)BM\(Boyer\-Moore\)算法\n \* \(4\)Horspool算法\n \* \(5\)Sunday算法\n \* \@author lenovo\n \* \@date 2019年3月22日\n \* description\:\n \*\/\npublic class QuickMatch \{\n\n\npublic static void main\(String\[\] args\) \{\nString s\=\&quot;abcdebcdbcdegbcde\&quot;\;\nString p\=\&quot;bcdeg\&quot;\;\nSunday\(s\, p\)\;\n\n\}\n\n\n\/\/注意每次都是从后向前\npublic static int contains\(char\[\] str\,char ch\)\{\nfor\(int i\=str\.length\-1\;i\&gt;\=0\;i\-\-\)\{\nif\(str\[i\]\=\=ch\)\{\nreturn i\;\n\}\n\}\nreturn \-1\;\n\}\n\n\n\n\/\*\*\n \　\　\* 匹配字符串\n \　\　\* \@param s 目标字符串\n \　\　\* \@param p 需要匹配的字符串\n \　\　\*\/\n\npublic static void Sunday\(String s\,String p\)\{\nchar\[\] sarray \= s\.toCharArray\(\)\;\nchar\[\] parray \= p\.toCharArray\(\)\;\nint slen\=s\.length\(\)\;\nint plen\=p\.length\(\)\;\nint i\=0\,j\=0\;\nwhile\(i\&lt;\=slen\-plen\+j\)\{\/\/这句话控制索引i\,j的范围\nif\(sarray\[i\]\!\=parray\[j\]\)\{\/\/假如主串的sarry\[i\]与模式串的parray\[j\]不相等\nif\(i\=\=slen\-plen\+j\)\{\nbreak\;\/\/假如主串的sarry\[i\]与模式串的parray\[j\]不相等\,并且i\=slen\-plen\+j\,说明这已经\n\/\/是在和主串中最后可能相等的字符段比较了\,并且不相等\,说明后面就再也没有相等的了\,所以\n\/\/跳出循环\,结束匹配\n\}\n\/\/假如是主串的中间字段与模式串匹配\，且结果不匹配\n\/\/则就从模式串的最后面开始\,\(注意是从后向前\)向前遍历\,找出模式串的后一位在对应的母串的字符是否在子串中存在\n int pos\=contains\(parray\, sarray\[i\+plen\-j\]\)\;\nif\(pos\=\=\-1\)\{\/\/表示不存在\ni\=i\+plen\+1\-j\;\nj\=0\;\n\}else\{\ni\=i\+plen\-pos\-j\;\nj\=0\;\n\}\n \}else\{\/\/假如主串的sarry\[i\]与模式串的parray\[j\]相等\,则继续下面的操作\nif\(j\=\=plen\-1\)\{\/\/判断模式串的索引j是不是已经到达模式串的最后位置\，\n\/\/j\=\=plen\-1证明在主串中已经找到一个模式串的位置\,\n\/\/且目前主串尾部的索引为i\,主串首部的索引为i\-j\,打印模式串匹配的第一个位置\nSystem\.out\.println\(\&quot;the start pos is \&quot;\+\(i\-j\)\+\&quot; the end pos is \&quot;\+i\)\;\n\/\/然后主串右移一个位置\,再和模式串的首字符比较\,从而寻找下一个匹配的位置\ni\=i\-j\+1\;\nj\=0\;\n\}else\{\n\/\/假如模式串的索引j\!\=plen\-1\,说明模式串还没有匹配完\,则i\+\+\,j\+\+继续匹配\,\ni\+\+\;\nj\+\+\;\n\}\n\}\n \}\n\}</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/MainGUI.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/UrlUtils.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/NetUtils.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/htt.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Baiduzhishu.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/pom.xml" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/HtmlMatchSimilarity.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/Similarity.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/search/impl/BaiDuSearch.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/BaiDuSimilarity.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/QuickMatch.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/PmiSimilarity.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/utils/BaiDuUtils.java" />
+        <option value="$PROJECT_DIR$/MillionHero-master/src/main/java/pattern/impl/CommonPattern.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="width" value="756" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ocr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="similarity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="similarity" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="MillionHero-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zhushou" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22562979" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\start\Documents\WeChat Files\wxid_6iz87g7hsp3b22\FileStorage\File\2019-12\MillionHero-master\src\main\java\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainGUI">
+    <configuration name="BaiDuUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.BaiDuUtils" />
+      <module name="hero" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MainGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainGUI" />
+      <module name="hero" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="NetUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.NetUtils" />
+      <module name="hero" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="QuickMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.QuickMatch" />
+      <module name="hero" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="UrlUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ss.wechatpay.pay.UrlUtils" />
+      <module name="hero" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ss.wechatpay.pay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainGUI" />
+      <item itemvalue="Application.UrlUtils" />
+      <item itemvalue="Application.BaiDuUtils" />
+      <item itemvalue="Application.NetUtils" />
+      <item itemvalue="Application.QuickMatch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainGUI" />
+        <item itemvalue="Application.QuickMatch" />
+        <item itemvalue="Application.BaiDuUtils" />
+        <item itemvalue="Application.NetUtils" />
+        <item itemvalue="Application.UrlUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05ea355b-0dca-417c-a4d6-602beabd5767" name="Default" comment="" />
+      <created>1576415446179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576415446179</updated>
+      <workItem from="1576415447991" duration="1682000" />
+      <workItem from="1576417163185" duration="29357000" />
+      <workItem from="1576485460049" duration="6774000" />
+      <workItem from="1576496770542" duration="35094000" />
+      <workItem from="1576730101405" duration="1831000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74738000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060332" side_tool="true" weight="0.32881355" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7790347" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.09028961" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37670198" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6674208" weight="0.5170068" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3295626" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49396682" weight="0.54931974" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/HttpClientUtils.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/UrlUtils.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MillionHero-master/src/main/java/pattern/impl/CommonPattern.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="66" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>question.substring(start,end)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/ProcessBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="1047" selection-start-line="1047" selection-end-line="1047" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/ocr/impl/OcrFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/tess4j/tess4j/3.2.1/tess4j-3.2.1.jar!/net/sourceforge/tess4j/util/ImageIOHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4950">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/tess4j/tess4j/3.2.1/tess4j-3.2.1.jar!/net/sourceforge/tess4j/Tesseract.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/tess4j/tess4j/3.2.1/tess4j-3.2.1.jar!/net/sourceforge/tess4j/ITesseract.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baidu/aip/java-sdk/4.0.0/java-sdk-4.0.0.jar!/com/baidu/aip/ocr/AipOcr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.jar!/org/apache/http/impl/client/AbstractHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8970">
+          <caret line="348" column="30" selection-start-line="348" selection-start-column="30" selection-end-line="348" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/WeiXinUtils.java" />
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/search/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/client/methods/HttpRequestBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/ocr/impl/TessOcr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/pattern/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/impl/client/HttpClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6510">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/ImageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/UrlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/Jsoup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar!/org/jsoup/nodes/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8940">
+          <caret line="380" column="15" selection-start-line="380" selection-start-column="11" selection-end-line="380" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38220">
+          <caret line="1331" column="32" selection-start-line="1331" selection-start-column="24" selection-end-line="1331" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/ocr/impl/BaiDuOcr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/ocr/Ocr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/HtmlMatchSimilarity.java" />
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/search/impl/SearchFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/search/impl/BaiDuSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/gui/BaiduNlpSettingDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/gui/BaiDuOcrSettingDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48870">
+          <caret line="1697" column="16" selection-start-line="1697" selection-start-column="16" selection-end-line="1697" selection-end-column="16" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/QuickMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/MainGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6540">
+          <caret line="233" selection-start-line="233" selection-end-line="233" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/NetUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Baiduzhishu.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="140" column="39" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/BaiDuUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/Similarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/PmiSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/util/concurrent/ThreadFactoryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/BaiDuSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/similarity/impl/SimilarityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/pattern/impl/CommonPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4920">
+          <caret line="198" column="39" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="233" column="9" selection-start-line="233" selection-start-column="9" selection-end-line="233" selection-end-column="9" />
+          <folding>
+            <element signature="e#3755#3785#0" expanded="true" />
+            <element signature="e#5351#5352#0" expanded="true" />
+            <element signature="e#5386#5387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hero</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22562979" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: asm:asm:3.3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
