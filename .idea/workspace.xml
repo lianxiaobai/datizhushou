@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="05ea355b-0dca-417c-a4d6-602beabd5767" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/bean/TextString.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/bean/TextString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/serviceimpl/ResultServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/serviceimpl/ResultServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/BaiDuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/java/com/ljx/zhushou/utils/BaiDuUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/totop.html" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/resources/static/totop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhushou/src/main/resources/static/totop.js" beforeDir="false" afterPath="$PROJECT_DIR$/zhushou/src/main/resources/static/totop.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/MillionHero-master/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/FutureTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="293">
               <caret line="233" column="9" selection-start-line="233" selection-start-column="9" selection-end-line="233" selection-end-column="9" />
               <folding>
                 <element signature="e#3755#3785#0" expanded="true" />
@@ -130,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48870">
+            <state relative-caret-position="30">
               <caret line="1697" column="16" selection-start-line="1697" selection-start-column="16" selection-end-line="1697" selection-end-column="16" />
               <folding>
                 <element signature="e#66457#66458#0" expanded="true" />
@@ -201,8 +201,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="53" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="268" />
+    <option name="y" value="124" />
     <option name="width" value="485" />
     <option name="height" value="374" />
   </component>
@@ -223,42 +224,44 @@
             </path>
             <path>
               <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="zhushou" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="zhushou" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="zhushou" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="zhushou" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="zhushou" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-12" type="462c0819:PsiDirectoryNode" />
+              <item name="zhushou" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2019-12" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,15 +420,15 @@
       <workItem from="1576417163185" duration="29357000" />
       <workItem from="1576485460049" duration="6774000" />
       <workItem from="1576496770542" duration="35094000" />
-      <workItem from="1576730101405" duration="2433000" />
+      <workItem from="1576730101405" duration="4316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75340000" />
+    <option name="totallyTimeSpent" value="77223000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -437,10 +440,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7790347" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.09028961" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6218058" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37670198" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -731,17 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48870">
-          <caret line="1697" column="16" selection-start-line="1697" selection-start-column="16" selection-end-line="1697" selection-end-column="16" />
-          <folding>
-            <element signature="e#66457#66458#0" expanded="true" />
-            <element signature="e#66495#66496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MillionHero-master/src/main/java/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3240">
@@ -858,12 +850,23 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="293">
           <caret line="233" column="9" selection-start-line="233" selection-start-column="9" selection-end-line="233" selection-end-column="9" />
           <folding>
             <element signature="e#3755#3785#0" expanded="true" />
             <element signature="e#5351#5352#0" expanded="true" />
             <element signature="e#5386#5387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1697" column="16" selection-start-line="1697" selection-start-column="16" selection-end-line="1697" selection-end-column="16" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
           </folding>
         </state>
       </provider>

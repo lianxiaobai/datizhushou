@@ -217,12 +217,19 @@ var qii404 = {
               return;
             }
             this_.questiontemp = data.question;
+            var anssss = '';
+            for(var i = 0;i < data.answers.length;i++){
+                //console.log("ansjjjjjjjj"+data.answers[i]);
+                anssss += data.answers[i] + ' -----------  ';
+            }
+            $('#ans').html(anssss);
             for(var i = 0;i < data.results.length;i++){
                $('#result' + i).html(data.results[i]);
             }
+
             this_.question = data.question;
             $('#question0').html(data.question);
-            console.log("data.answers:" + data.answers[0]);
+            //console.log("data.answers:" + data.answers[0]);
             this_.answers = data.answers;
 
             this_.renderPage(data);

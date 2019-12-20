@@ -3,6 +3,7 @@ package com.ljx.zhushou.serviceimpl;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import com.ljx.zhushou.Dto.ResultDto;
 import com.ljx.zhushou.Handler.StringHandlerTask;
+import com.ljx.zhushou.Handler.VisitBaiDuHandler;
 import com.ljx.zhushou.Service.ResultService;
 import com.ljx.zhushou.bean.TextString;
 import com.ljx.zhushou.utils.BaiDuUtils;
@@ -17,15 +18,16 @@ import java.util.concurrent.*;
 public class ResultServiceImpl implements ResultService {
     private ThreadFactory namedThreadFactory = new ThreadFactoryBuilder()
             .setNameFormat("search").build();
-    private static String sss = "";
-    private ExecutorService pools = new ThreadPoolExecutor(8, 12,
+    private ExecutorService pools = new ThreadPoolExecutor(10, 12,
             0L, TimeUnit.MILLISECONDS,
             new LinkedBlockingQueue<Runnable>(1024), namedThreadFactory, new ThreadPoolExecutor.AbortPolicy());
-
+   private static String sss = "";
     @Value("${htmlurl.sogourl}")
     String sogouurl;
+
     public TextString getResult(){
         ResultDto resultDto = new ResultDto();
+        VisitBaiDuHandler visitBaiDuHandler = new VisitBaiDuHandler(pools);
         //从搜狗获取题目和选项
         TextString textString = BaiDuUtils.getText(sogouurl);
 
@@ -34,96 +36,66 @@ public class ResultServiceImpl implements ResultService {
         }
         sss = textString.getQuestion();
         resultDto.setTitle(textString.getQuestion());
-        //调用百度搜索题目，返回搜索结果页面，并解析
-        FutureTask<String> searchQuestion = new FutureTask<String>(()->{
-            return BaiDuUtils.getZixun(textString.getQuestion());
-        });
-        pools.execute(searchQuestion);
-        //调用百度搜索选项+题目，返回搜索结果页面，并解析
-        FutureTask<String> searchAnsersQuestion = new FutureTask<String>(()->{
-            return BaiDuUtils.getZixun(StringUtils.join(textString.getAnswers())+ " " +  BaiDuUtils.questionHandler(textString.getQuestion()));
-        });
-        pools.execute(searchAnsersQuestion);
-        String searchQuestionHtml ="";
-
-        try {
-            searchQuestionHtml = searchQuestion.get();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-
-
-
-        //对于每个选项都创建一个任务去匹配搜索网页中出现的次数
         int length = textString.getAnswers().length;
-        int[] searchQuestionResult = new int[length];
-        int[] searchAnsersQuestionResult = new int[length];
-        FutureTask<Integer>[] searchQuestiontasks = new FutureTask[length];
-        FutureTask<Integer>[] searchAnsersQuestiontasks = new FutureTask[length];
+        //搜索关键内容
+        String[] keywords = new String[3];
+        //百度搜索结果html
+        String[] ResultHtmls = new String[3];
+        //访问百度线程
+        FutureTask<String>[] futureTasks = new FutureTask[3];
+        //匹配字符串线程
+        FutureTask<Integer>[][] futureStringTasks = new FutureTask[3][length];
+        //题目
+        keywords[0] = textString.getQuestion();
+        //题目+选项
+        keywords[1] = BaiDuUtils.questionHandler(textString.getQuestion()) + " " + StringUtils.join(textString.getAnswers());
+        //选项+题目
+        keywords[2] = StringUtils.join(textString.getAnswers())+ " " +  BaiDuUtils.questionHandler(textString.getQuestion());
+        //开始百度搜索
+        for(int i = 0; i<futureTasks.length;i++){
+            futureTasks[i] = visitBaiDuHandler.getSearchHtml(keywords[i]);
+        }
 
-        String searchAnsersQuestionHtml="";
-        try {
-            searchAnsersQuestionHtml = searchAnsersQuestion.get();
+        //获取搜索结果html
+        for (int i = 0; i < ResultHtmls.length; i++) {
+            ResultHtmls[i] = visitBaiDuHandler.getFutureResult(futureTasks[i]);
+        }
+        //开始匹配选项
+        for (int i = 0; i < ResultHtmls.length; i++) {
+            futureStringTasks[i] = visitBaiDuHandler.getMatchResult(ResultHtmls[i],textString.getAnswers());
+        }
+
+        //匹配结果
+        int[][] searchQuestionResult = new int[3][length];
+        //CountDownLatch countDownLatch = new CountDownLatch(searchQuestionResult.length);
+        for (int i = 0;i < futureStringTasks.length;i++){
+            final int f = i;
+            //pools.execute(()-> {
+                for (int j = 0;j < futureStringTasks[f].length;j++){
+                   // System.out.println(f+" "+j);
+                    searchQuestionResult[f][j] = visitBaiDuHandler.getFutureIntegerResult(futureStringTasks[f][j]);
+                }
+           // });
+           // countDownLatch.countDown();
+        }
+       /* try {
+            countDownLatch.await();
         } catch (InterruptedException e) {
             e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-
-
-        for(int index=0;index < length;index++){
-            searchQuestiontasks[index] = new FutureTask<Integer>(new StringHandlerTask(searchQuestionHtml,textString.getAnswers()[index]));
-            //FutureTask temp = searchQuestiontasks[index];
-            pools.execute(searchQuestiontasks[index]);
-        }
-      /*  int  index=0;
-        for(FutureTask task: searchAnsersQuestiontasks){
-            task = new FutureTask(new StringHandlerTask(searchAnsersQuestionHtml,textString.getAnswers()[index++]));
-            pools.execute(task);
         }*/
-        for(int index=0;index < length;index++){
-            searchAnsersQuestiontasks[index] = new FutureTask<Integer>(new StringHandlerTask(searchAnsersQuestionHtml,textString.getAnswers()[index]));
-            //FutureTask temp = searchQuestiontasks[index];
-            pools.execute(searchAnsersQuestiontasks[index]);
-        }
-        for (int i = 0; i < length; i++) {
-            while (true) {
-                if (searchQuestiontasks[i].isDone()) {
-                    break;
-                }
-            }
-            try {
-                searchQuestionResult[i] = (int)searchQuestiontasks[i].get();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (ExecutionException e) {
-                e.printStackTrace();
-            }
-        }
-        for (int i = 0; i < length; i++) {
-            while (true) {
-                if (searchAnsersQuestiontasks[i].isDone()) {
-                    break;
-                }
-            }
-            try {
-                searchAnsersQuestionResult[i] = (int)searchAnsersQuestiontasks[i].get();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            } catch (ExecutionException e) {
-                e.printStackTrace();
-            }
-        }
-      String[] answerResults = new String[length];
-      for (int j = 0;j <length;j++){
-           answerResults[j] = textString.getAnswers()[j]+" : " + searchQuestionResult[j] + " ------  "+ searchAnsersQuestionResult[j];
+
+      String[] answerResults = new String[3];
+      for (int j = 0;j <answerResults.length;j++){
+          String temp = "";
+          for(int i = 0;i <searchQuestionResult[j].length;i++){
+              temp += searchQuestionResult[j][i] + " ---------------  ";
+          }
+          answerResults[j] = temp;
           System.out.println(answerResults[j]);
       }
-        resultDto.setResults(answerResults);
-        textString.setResults(answerResults);
-        return textString;
+      resultDto.setResults(answerResults);
+      textString.setResults(answerResults);
+      return textString;
     }
 
     @Override

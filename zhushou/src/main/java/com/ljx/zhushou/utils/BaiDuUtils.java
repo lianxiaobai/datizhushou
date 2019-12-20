@@ -137,6 +137,7 @@ User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-TL00H Build/HONORCAM-TL00H; wv)
         } catch (Exception e) {
             e.printStackTrace();
         }
+        //System.out.println("keyword:" + keyword);
         //System.out.println("result: " + result);
         return result;
     }
@@ -153,10 +154,14 @@ User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-TL00H Build/HONORCAM-TL00H; wv)
             result = EntityUtils.toString(res.getEntity());
             Document document = Jsoup.parse(result);
             text =  document.getElementById("content_left").text();
+            //System.out.println("url" + url);
+            //System.out.println("result:" + result);
+            //System.out.println("text:" + text);
             return text;
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return text;
     }
     public static String questionHandler(String question){
