@@ -217,18 +217,21 @@ var qii404 = {
               return;
             }
             this_.questiontemp = data.question;
-            var anssss = '';
+         /*   var anssss = '';
             for(var i = 0;i < data.answers.length;i++){
                 //console.log("ansjjjjjjjj"+data.answers[i]);
                 anssss += data.answers[i] + ' -----------  ';
-            }
-            $('#ans').html(anssss);
-            for(var i = 0;i < data.results.length;i++){
+            }*/
+         /*   $('#ans').html(anssss);*/
+          /*  for(var i = 0;i < data.results.length;i++){
                $('#result' + i).html(data.results[i]);
-            }
+            }*/
 
             this_.question = data.question;
             $('#question0').html(data.question);
+            $('#sogou').html(data.soGouAnswer);
+            $('#lisi').html(data.liSiAnswer);
+            //$('#tweleveAns').html(data.selectAnswer);
             //console.log("data.answers:" + data.answers[0]);
             this_.answers = data.answers;
 

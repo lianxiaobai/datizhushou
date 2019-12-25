@@ -18,11 +18,11 @@ public class ResultControll {
     @Resource
     ResultService resultService;
     @GetMapping("/getResult")
-    public TextString getResult(){
+    public TextString getResult(String words){
        //resultService.getResult();
         //BaseResponse<ResultDto> baseResponse = new BaseResponse<>();
         //baseResponse.setData(resultService.getResult());
-       return resultService.getResult();
+       return resultService.getResult(words);
     }
 
     @GetMapping("/getFirstResult")

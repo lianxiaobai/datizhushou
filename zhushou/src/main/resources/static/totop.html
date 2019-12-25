@@ -36,14 +36,37 @@
         <small><span id="status">刷新中</span>...共计<span id="counter">0</span>次，如果页面没有变化说明新题目还未到达</small>
     </div>
 </div>
+<script type="text/javascript">
+    function login() {
+        $.ajax({
+            //几个参数需要注意一下
+            type: "get",//方法类型
+            dataType: "json",//预期服务器返回的数据类型
+            url: "/getResult" ,//url
+            data: $('#form1').serialize(),
+            success: function (result) {
+                //console.log(result);//打印服务端返回的数据(调试用)
+                if (result.resultCode == 200) {
+                    alert("SUCCESS");
+                }
+
+            },
+            error : function() {
+                alert("异常！");
+            }
+        });
+    }
+</script>
 
 <div id="div-page" >
     <div id="question0"></div>
-    <div id="ans"></div>
-    <div id="result0"></div>
-     <div id="result1"></div>
-      <div id="result2"></div>
-       <div id="result3"></div>
+    搜狗答案：<div id="sogou"></div>
+    推荐答案：<div id="lisi"></div>
+    <form id="form1" onsubmit="return false"  method="get">
+        <input type="text" name="words"/>
+        <input type="submit" value="提交" onclick="login()">
+    </form>
+    <!--英雄场答案：<div id="tweleveAns"></div>-->
 </div>
 <div>
 <iframe id="iframe-page" scrolling="no"></iframe>
@@ -52,7 +75,7 @@
 </div>
 
 <script type="text/template" id="question-template">
-   <div>
+   <div><!--
         <h4 class="alert alert-info">{{title}}</h4>
         <table id="answer-table">
             <tr><th>选项</th><th>百度搜索结果总数</th><th>搜索首页出现次数</th><th class="removed-repeat">选项答案搜索结果</th></tr>
@@ -80,7 +103,7 @@
         </ul> 
 
         <div><span id="recomment-result" class="label label-success">推荐答案：{{result}}</span></div>
-    </div>
+    --></div>
 </script>  
 
 <script type="text/javascript" src="jquery.js"></script>

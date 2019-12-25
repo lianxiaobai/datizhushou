@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 
 
 public interface ResultService {
-    public TextString getResult();
+    public TextString getResult(String words);
     public TextString getFirstResult();
 }
